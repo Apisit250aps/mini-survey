@@ -1,6 +1,6 @@
 import NextAuth from 'next-auth'
 import authConfig from './configs/auth.config'
 
-const {} = NextAuth({
+export const { auth } = NextAuth({
   ...authConfig,
 })
